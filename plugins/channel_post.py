@@ -61,6 +61,5 @@ async def new_post(client: Client, message: Message):
 
 # Jishu Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @ADR_ANIME_HINDI
+# Developer @ADR_AI
