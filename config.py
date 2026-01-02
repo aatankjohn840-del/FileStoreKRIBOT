@@ -5,13 +5,13 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8007346888:AAFC-NAVQkw4Zy7_zVa4856H8EN1aHOSRsw")
-API_ID = int(os.environ.get("API_ID", "27705761"))
-API_HASH = os.environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8485486052:AAEte4Lg51I9--lE_XkwSANlWzjmX-o5hxU")
+API_ID = int(os.environ.get("API_ID", "24828197"))
+API_HASH = os.environ.get("API_HASH", "d36e278e89ebeb900aeda4128d413a77")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "7660990923"))
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://musicbhaikon9910:krishna@cluster0.cwvegmt.mongodb.net/")
 JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 DB_NAME = os.environ.get("DB_NAME", "Madflix-Files")
 
@@ -30,7 +30,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[7660990923]
-    for x in (os.environ.get("ADMINS", "2089948673 2089948673").split()):
+    for x in (os.environ.get("ADMINS", "2239014353").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
