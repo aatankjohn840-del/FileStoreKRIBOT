@@ -45,5 +45,5 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
 
 # Don't Remove Credit 🥺
-# Telegram Channel @AxomBotz
-# Developer @imakashrabha
+# Telegram Channel @ADR_ANIME_HINDI
+# Developer @ADR_AI
